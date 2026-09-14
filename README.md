@@ -121,8 +121,3 @@ ZeroGate strictly enforces the following security properties:
 - **Default deny remains active:** If no policy matches, access is blocked.
 - **Policy priority remains deterministic:** Lowest integer has highest precedence.
 - **Frontend does not independently authorize requests:** All decisions are cryptographically enforced on the backend.
-
-## 14. Phase 9 Validation
-End-to-End integration testing was strictly enforced using `pytest`.
-- **72 / 72 Backend Tests Passed (100%)**
-- Validated complete integration flow from Request -> PEP -> Risk -> PDP -> MFA -> Segmentation.
