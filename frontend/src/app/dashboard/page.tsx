@@ -48,10 +48,7 @@ export default async function DashboardPage() {
       <div className="relative overflow-hidden rounded-2xl bg-gradient-to-br from-slate-900 via-slate-900 to-indigo-950/60 p-8 border border-slate-800 shadow-xl">
         <div className="absolute top-0 right-0 w-96 h-96 bg-sky-500/5 rounded-full blur-3xl -mr-20 -mt-20 pointer-events-none" />
         <div className="relative z-10 max-w-3xl">
-          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-500/10 border border-emerald-500/20 text-emerald-400 text-xs font-mono font-medium mb-4">
-            <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse" />
-            Phase 7: Dashboard &amp; Simulator Active
-          </div>
+
           <h1 className="text-3xl sm:text-4xl font-extrabold tracking-tight text-white mb-3">
             ZeroGate Security Command Center
           </h1>
