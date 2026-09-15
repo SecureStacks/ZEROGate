@@ -59,7 +59,6 @@ Audit Event Logged
 ## 6. Project Structure
 - `/backend`: Core FastAPI application, database models, policies, risk engine, and test suite.
 - `/frontend`: Next.js web application for the Dashboard and Simulator.
-- `/docs`: Demo script and presentation content.
 - `docker-compose.yml`: Containerized setup.
 
 ## 7. Local Setup
