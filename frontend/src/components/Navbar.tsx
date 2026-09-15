@@ -66,7 +66,6 @@ export function Navbar() {
                     ZTNA
                   </span>
                 </div>
-                <p className="text-[11px] text-slate-400 -mt-0.5">PS-12 Context-Aware Simulator</p>
               </div>
             </Link>
           </div>

@@ -9,14 +9,6 @@ export function Footer() {
           <Shield className="w-4 h-4 text-sky-500" />
           <span>ZeroGate &copy; {new Date().getFullYear()} — Context-Aware Zero Trust Access Platform</span>
         </div>
-        <div className="flex items-center gap-4 font-mono">
-          <span className="flex items-center gap-1 text-slate-400">
-            <Cpu className="w-3.5 h-3.5 text-emerald-400" />
-            NIST SP 800-207 Architecture
-          </span>
-          <span className="text-slate-700">|</span>
-          <span className="text-slate-400">PS-12 Track: Network & Perimeter Security</span>
-        </div>
       </div>
     </footer>
   );
